@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btAddressVcard">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+			<AUTOINCREMENT/> 
+		</field>
+		<field name="name" type="C" size="255" />
+		<field name="address" type="C" size="255" />
+		<field name="address2" type="C" size="255" />
+		<field name="city" type="C" size="255" />
+		<field name="state" type="C" size="255" />
+		<field name="zip" type="C" size="255" />
+		<field name="phone" type="C" size="255" />
+		<field name="website" type="C" size="255" />
+	</table>
+</schema>
